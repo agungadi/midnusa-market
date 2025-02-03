@@ -1,0 +1,304 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "Burger",
+      "deskripsi": "null",
+      "image_url": "https://www.torontopizza.com.cy/menu/menu/363-large_default/hamburger.jpg",
+      "price": 15,
+      "stock": 992,
+      "category": 1
+    },
+    {
+      "id": 2,
+      "name": "Lemonade",
+      "deskripsi": "null",
+      "image_url": "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Spiked-Lemonade_EXPS_THSUM18_37199_D02_01_8b.jpg",
+      "price": 5,
+      "stock": 991,
+      "category": 2
+    },
+    {
+      "id": 3,
+      "name": "Sphagetti",
+      "deskripsi": "null",
+      "image_url": "https://cdn.yummy.co.id/content-images/images/20200407/BxsZD8wa577p0msFLIATe1GDT83b61zf-31353836323436363636d41d8cd98f00b204e9800998ecf8427e_800x800.jpg",
+      "price": 20,
+      "stock": 993,
+      "category": 1
+    },
+    {
+      "id": 4,
+      "name": "Friend Fries",
+      "deskripsi": "null",
+      "image_url": "https://s3-live-yocorp.sgp1.digitaloceanspaces.com/wp-content/uploads/2021/01/30111553/French-Fries-G.jpg",
+      "price": 10,
+      "stock": 992,
+      "category": 1
+    }
+  ],
+  "menu_detail": [
+    {
+      "id": 1,
+      "name": "Burger",
+      "deskripsi": "null",
+      "image_url": "https://www.torontopizza.com.cy/menu/menu/363-large_default/hamburger.jpg",
+      "price": 15,
+      "stock": 992,
+      "category": 1
+    },
+    {
+      "id": 2,
+      "name": "Lemonade",
+      "deskripsi": "null",
+      "image_url": "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Spiked-Lemonade_EXPS_THSUM18_37199_D02_01_8b.jpg",
+      "price": 5,
+      "stock": 991,
+      "category": 2
+    },
+    {
+      "id": 3,
+      "name": "Sphagetti",
+      "deskripsi": "null",
+      "image_url": "https://cdn.yummy.co.id/content-images/images/20200407/BxsZD8wa577p0msFLIATe1GDT83b61zf-31353836323436363636d41d8cd98f00b204e9800998ecf8427e_800x800.jpg",
+      "price": 20,
+      "stock": 993,
+      "category": 1
+    },
+    {
+      "id": 4,
+      "name": "Friend Fries",
+      "deskripsi": "null",
+      "image_url": "https://s3-live-yocorp.sgp1.digitaloceanspaces.com/wp-content/uploads/2021/01/30111553/French-Fries-G.jpg",
+      "price": 10,
+      "stock": 992,
+      "category": 1
+    }
+  ],
+  "order": [
+    {
+      "id": 1,
+      "jumlahByr": 50,
+      "order_date": "4/19/2022, 7:57:32 AM",
+      "orderStatus": "Menunggu Pembayaran"
+    },
+    {
+      "id": 2,
+      "jumlahByr": 35,
+      "order_date": "4/19/2022, 11:29:54 AM",
+      "orderStatus": "Menunggu Pembayaran"
+    },
+    {
+      "id": 3,
+      "jumlahByr": 45,
+      "order_date": "5/6/2022, 1:25:01 PM",
+      "orderStatus": "Menunggu Pembayaran"
+    },
+    {
+      "id": 4,
+      "jumlahByr": 25,
+      "order_date": "5/14/2022, 10:45:03 AM",
+      "orderStatus": "Menunggu Pembayaran"
+    }
+  ],
+  "table": [
+    {
+      "id": 1,
+      "nomor": "Table 1",
+      "status": "Reserved"
+    },
+    {
+      "id": 2,
+      "nomor": "Table 2",
+      "status": "Reserved"
+    },
+    {
+      "id": 3,
+      "nomor": "Table 3",
+      "status": "Available"
+    },
+    {
+      "id": 4,
+      "nomor": "Table 4",
+      "status": "Available"
+    },
+    {
+      "id": 5,
+      "nomor": "Table 5",
+      "status": "Available"
+    },
+    {
+      "id": 6,
+      "nomor": "Table 6",
+      "status": "Available"
+    },
+    {
+      "id": 7,
+      "nomor": "Table 7",
+      "status": "Available"
+    },
+    {
+      "id": 8,
+      "nomor": "Table 8",
+      "status": "Available"
+    },
+    {
+      "id": 9,
+      "nomor": "Table 9",
+      "status": "Available"
+    },
+    {
+      "id": 10,
+      "nomor": "Table 9",
+      "status": "Available"
+    }
+  ],
+  "antrean": [
+    {
+      "id": 1,
+      "no_antrean": 1,
+      "status": "selesai",
+      "no_meja": 3,
+      "order_date": "order_date"
+    },
+    {
+      "id": 2,
+      "no_antrean": 2,
+      "status": "selesai",
+      "no_meja": 5,
+      "order_date": "order_date"
+    },
+    {
+      "id": 3,
+      "no_antrean": 3,
+      "status": "selesai",
+      "no_meja": 3,
+      "order_date": "order_date"
+    },
+    {
+      "id": 4,
+      "no_antrean": 4,
+      "status": "Waiting",
+      "no_meja": 4,
+      "order_date": "5/14/2022, 10:45:03 AM"
+    },
+    {
+      "id": 5,
+      "no_antrean": 5,
+      "status": "Waiting",
+      "no_meja": 4,
+      "order_date": "5/14/2022, 10:45:06 AM"
+    }
+  ],
+  "order_detail": [
+    {
+      "id": 1650329846973,
+      "menuId": 4,
+      "orderId": 1,
+      "price": 10,
+      "jumlah": 1,
+      "total_price": 10,
+      "antreanId": 1
+    },
+    {
+      "id": 1650329847563,
+      "menuId": 3,
+      "orderId": 1,
+      "price": 20,
+      "jumlah": 1,
+      "total_price": 20,
+      "antreanId": 1
+    },
+    {
+      "id": 1650329848091,
+      "menuId": 2,
+      "orderId": 1,
+      "price": 5,
+      "jumlah": 1,
+      "total_price": 5,
+      "antreanId": 1
+    },
+    {
+      "id": 1650329848724,
+      "menuId": 1,
+      "orderId": 1,
+      "price": 15,
+      "jumlah": 1,
+      "total_price": 15,
+      "antreanId": 1
+    },
+    {
+      "id": 1650342586754,
+      "menuId": 4,
+      "orderId": 2,
+      "price": 10,
+      "jumlah": 1,
+      "total_price": 10,
+      "antreanId": 2
+    },
+    {
+      "id": 1650342587252,
+      "menuId": 3,
+      "orderId": 2,
+      "price": 20,
+      "jumlah": 1,
+      "total_price": 20,
+      "antreanId": 2
+    },
+    {
+      "id": 1650342588892,
+      "menuId": 2,
+      "orderId": 2,
+      "price": 5,
+      "jumlah": 1,
+      "total_price": 5,
+      "antreanId": 2
+    },
+    {
+      "id": 1650371764143,
+      "menuId": 1,
+      "orderId": 3,
+      "price": 15,
+      "jumlah": 2,
+      "total_price": 30,
+      "antreanId": 3
+    },
+    {
+      "id": 1651818289133,
+      "menuId": 2,
+      "orderId": 3,
+      "price": 5,
+      "jumlah": 1,
+      "total_price": 5,
+      "antreanId": 3
+    },
+    {
+      "id": 1651818297162,
+      "menuId": 4,
+      "orderId": 3,
+      "price": 10,
+      "jumlah": 1,
+      "total_price": 10,
+      "antreanId": 3
+    },
+    {
+      "id": 1652499893118,
+      "menuId": 2,
+      "orderId": 4,
+      "price": 5,
+      "jumlah": 2,
+      "total_price": 10,
+      "antreanId": 4
+    },
+    {
+      "id": 1652499894438,
+      "menuId": 1,
+      "orderId": 4,
+      "price": 15,
+      "jumlah": 1,
+      "total_price": 15,
+      "antreanId": 4
+    }
+  ],
+  "keranjang": []
+}
