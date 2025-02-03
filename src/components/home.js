@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { connect } from "react-redux";
 import { logoutUser } from "./Auth/actions/auth";
 
 class Home extends Component {
@@ -21,11 +20,4 @@ class Home extends Component {
   }
 }
 
-function mapStateToProps(state) {
-  return {
-    isLoggingOut: state.auth.isLoggingOut,
-    logoutError: state.auth.logoutError,
-  };
-}
-
-export default connect(mapStateToProps)(Home);
+export default Home;

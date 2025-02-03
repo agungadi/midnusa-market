@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 import profile from "./images/avatar.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-const handleCart = (name, image_url, price, mejaId) => {};
-
 function Login() {
   return (
     <form>
