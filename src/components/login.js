@@ -1,16 +1,9 @@
+import Typography from "@material-ui/core/Typography";
+import { withStyles } from "@material-ui/styles";
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { Redirect } from "react-router-dom";
+import { Link, Redirect } from "react-router-dom";
 import { loginUser } from "./Auth/actions/auth";
-import { withStyles } from "@material-ui/styles";
-import Avatar from "@material-ui/core/Avatar";
-import Button from "@material-ui/core/Button";
-import TextField from "@material-ui/core/TextField";
-import LockOutlinedIcon from "@material-ui/icons/LockOutlined";
-import Typography from "@material-ui/core/Typography";
-import Paper from "@material-ui/core/Paper";
-import Container from "@material-ui/core/Container";
-import {Link} from 'react-router-dom';
 import profile from "./images/avatar.png";
 
 const styles = () => ({
@@ -60,52 +53,67 @@ class Login extends Component {
       return <Redirect to="/daftarmeja" />;
     } else {
       return (
-      
         <form>
-            <div className='main'>
-                <div className='sub-main'>
-                    <div>
-                        <div className='imgs'>
-                            <div className='container-image'>
-                                <img src={profile} alt='profile' className='profile'/>
-                            </div>
-             
-
-                        </div>
-                        <div class="d-flex flex-row" className='imgs'> 
-                            <label class="radio mr-1"> 
-                                <input type="radio" name="add" value="anz" checked /> 
-                                <span> <i class="fa fa-user"></i> Login </span> 
-                            </label> 
-                            <label class="radio"> 
-                                <input type="radio" name="add" value="add"/> 
-                                <Link className='link' to='/registration'>
-                                <span> <i class="fa fa-plus-circle"></i> Register </span> 
-                                </Link>
-                            </label> 
-                        </div>
-                        <div>
-                            <div className='first-input'>
-                                <input type="email" placeholder="Enter Email" className='fill' name="email" onChange={this.handleEmailChange} />
-                            </div>
-                            <div className='second-input'>
-                                <input type="password" placeholder='Enter Password' className='fill' name="password" onChange={this.handlePasswordChange}/>
-                            </div>
-                            {loginError && (
-                              <Typography component="p" className={classes.errorText}>
-                                Incorrect email or password.
-                              </Typography>
-                            )}
-                            <div className='login-btn'>
-                                    <button type="button" onClick={this.handleSubmit}><h4>Login</h4></button>
-                            </div>
-
-                        </div>
-                    </div>
+          <div className="main">
+            <div className="sub-main">
+              <div>
+                <div className="imgs">
+                  <div className="container-image">
+                    <img src={profile} alt="profile" className="profile" />
+                  </div>
                 </div>
+                <div class="d-flex flex-row" className="imgs">
+                  <label class="radio mr-1">
+                    <input type="radio" name="add" value="anz" checked />
+                    <span>
+                      {" "}
+                      <i class="fa fa-user"></i> Login{" "}
+                    </span>
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="add" value="add" />
+                    <Link className="link" to="/registration">
+                      <span>
+                        {" "}
+                        <i class="fa fa-plus-circle"></i> Register{" "}
+                      </span>
+                    </Link>
+                  </label>
+                </div>
+                <div>
+                  <div className="first-input">
+                    <input
+                      type="email"
+                      placeholder="Enter Email"
+                      className="fill"
+                      name="email"
+                      onChange={this.handleEmailChange}
+                    />
+                  </div>
+                  <div className="second-input">
+                    <input
+                      type="password"
+                      placeholder="Enter Password"
+                      className="fill"
+                      name="password"
+                      onChange={this.handlePasswordChange}
+                    />
+                  </div>
+                  {loginError && (
+                    <Typography component="p" className={classes.errorText}>
+                      Incorrect email or password.
+                    </Typography>
+                  )}
+                  <div className="login-btn">
+                    <button type="button" onClick={this.handleSubmit}>
+                      <h4>Login</h4>
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </form>
-
       );
     }
   }

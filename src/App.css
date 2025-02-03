@@ -37,13 +37,12 @@
   }
 }
 
-
 /* ///////////////// cart shop///////////// */
 
-@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap");
 
 body {
-  font-family: 'MuseoModerno', cursive;
+  font-family: "MuseoModerno", cursive;
   padding-top: 80px;
   color: #333;
   background-color: #ffffff;
@@ -218,7 +217,7 @@ header a:hover {
   color: black;
   margin-left: 50%;
   margin-right: 50%;
-    width: 100%;
+  width: 100%;
   padding: 10px;
 }
 
@@ -282,7 +281,6 @@ header a:hover {
 
 /* Pick Table */
 
-
 h1 {
   text-align: center;
 }
@@ -303,7 +301,7 @@ h1 {
 }
 
 .grid td:hover {
-  opacity: .7;
+  opacity: 0.7;
   cursor: pointer;
 }
 
@@ -314,11 +312,11 @@ h1 {
 }
 
 .reserved::after {
-  content: 'RESERVED'
+  content: "RESERVED";
 }
 
 .available::after {
-  content: 'AVAILABLE'
+  content: "AVAILABLE";
 }
 
 .available {
@@ -329,13 +327,12 @@ li {
   list-style: none;
 }
 
-
 .input_text {
-  float:left;
+  float: left;
   font-size: 24px;
   font-weight: bold;
-  color: #DFDFDE;
-  font-family: 'Source Sans Pro', sans-serif;
+  color: #dfdfde;
+  font-family: "Source Sans Pro", sans-serif;
   margin-left: 10px;
 }
 
@@ -356,7 +353,3 @@ li {
   padding: 0 5px;
   outline: 0;
 }
-
-
-
-
